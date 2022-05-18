@@ -9,8 +9,9 @@ Here you may find a few scripts that doing several things: parsing @HelloRainbow
 
 # Scripts and usage
 0) You may skip the dump links steps 1-3 and go to dump just the images at step 4, using already dumped data.
-1) Use the provided settings for the first usage. You may change them later if needed, e.g. for collage better resoluon
+1) Use the provided settings for the first usage. You may change them later if needed, e.g. for collage better resolution
 2) dump_stories_links.py: parses pikabu.ru for HelloRainbow posts
-3) dump_images_links.py: parses the posts with 'Rainbow' title and collects the links to the images (of rainbows, of course)
-4) dump_images.py: goes through the collected links and downloads the images
-5) process_images.py:  -- convert images to smaller thumbnails, centers them, and creates a collage from the thumbnails.
+`dump_stories_links.py`
+4) dump_images_links.py: parses the posts with 'Rainbow' title and collects the links to the images (of rainbows, of course)
+5) dump_images.py: goes through the collected links and downloads the images
+6) process_images.py:  -- convert images to smaller thumbnails, centers them, and creates a collage from the thumbnails.
